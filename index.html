@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fozin Bot</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.postimg.cc/Dy061Vj8/japan-background-digital-art.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: white;
+    }
+
+    .oval-bg {
+      background: rgba(14, 14, 26, 0.85);
+      border-radius: 50% / 30%;
+      width: 90vw;
+      max-width: 1000px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 0 50px #5865F2;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .btn {
+      background: #5865F2;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      margin-top: 30px;
+      text-decoration: none;
+      display: inline-block;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 20px #5865F2, 0 0 40px #5865F2;
+      transform: scale(1.05);
+    }
+
+    .commands {
+      margin-top: 40px;
+      text-align: left;
+      background: #1a1a2e;
+      padding: 20px;
+      border-radius: 12px;
+      display: inline-block;
+    }
+
+    .commands h2 {
+      color: #58f2c4;
+      margin-top: 0;
+    }
+
+    .command {
+      margin: 8px 0;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-top: 20px;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      animation: pulse 2.5s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      }
+      50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="oval-bg">
+    <h1>🤖 Fozin Bot</h1>
+    <p>Your multipurpose Discord Assistant</p>
+    <img src="https://i.postimg.cc/9fzdtLNb/Chat-GPT-Image-Jul-19-2025-10-33-40-PM.png" alt="Bot Profile Picture"/>
+
+    <div class="commands">
+      <h2>Available Commands</h2>
+      <div class="command">/hello - Say hello</div>
+      <div class="command">/ask - Ask the AI a question</div>
+      <div class="command">/joke - Get a random joke</div>
+      <div class="command">/coinflip - Flip a coin</div>
+      <div class="command">/help - List available commands</div>
+      <div class="command">/avatar - Show your avatar</div>
+      <div class="command">/time - Show current time</div>
+    </div>
+
+    <br/>
+    <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1395984772622188614&permissions=2147691584&integration_type=0&scope=bot" target="_blank">
+      ➕ Invite Fozin to Your Server
+    </a>
+  </div>
+
+</body>
+</html>
